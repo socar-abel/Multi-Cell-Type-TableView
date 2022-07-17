@@ -1,0 +1,6 @@
+framework module Pods_SomaCustomTableView {
+  umbrella header "Pods-SomaCustomTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}
