@@ -6,6 +6,6 @@
   
 Server Driven UI 로 활용되는 것을 목표로 합니다.  
   
-이미 약속한 뷰타입 내에서, 백엔드 json 데이터의 변경만으로도 UI 를 변경할 수 있게 만들 수 있도록 합니다.   
+이미 약속한 뷰타입 내에서, 백엔드 json 데이터의 변경만으로도 UI 를 변경할 수 있도록 합니다.   
   
 블로그 포스팅 : https://velog.io/@heyksw/Server-Driven-UI-Multi-Cell-Type-Custom-Table-View  
