@@ -15,7 +15,8 @@ class OneImageCell: UITableViewCell, CommonCell {
         addSubview(imageView1)
         
         imageView1.snp.makeConstraints {
-            $0.top.bottom.equalToSuperview()
+            $0.top.equalToSuperview().offset(16)
+            $0.bottom.equalToSuperview().offset(-16)
             $0.height.equalTo(120)
             $0.centerX.equalToSuperview()
         }

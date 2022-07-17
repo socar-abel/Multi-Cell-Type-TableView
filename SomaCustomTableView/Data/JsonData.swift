@@ -37,7 +37,7 @@ let jsonData = """
         {
             "viewType": "ONE_IMAGE",
             "viewObject": {
-                "url": "https://ifh.cc/g/2lJZOQ.jpg"
+                "url": "https://ifh.cc/g/MO9BVq.jpg"
             }
         },
 

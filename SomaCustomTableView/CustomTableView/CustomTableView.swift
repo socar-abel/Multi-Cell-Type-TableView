@@ -14,9 +14,9 @@ class CustomTableView: UITableView {
     }
     
     func registerCells(_ viewController: UIViewController) {
-        register(OneLineCell.self, forCellReuseIdentifier: "ONE_LINE_TEXT")
-        register(TwoLineCell.self, forCellReuseIdentifier: "TWO_LINE_TEXT")
-        register(OneImageCell.self, forCellReuseIdentifier: "ONE_IMAGE")
+        register(OneLineCell.self, forCellReuseIdentifier: ViewType.oneLine.rawValue)
+        register(TwoLineCell.self, forCellReuseIdentifier: ViewType.twoLine.rawValue)
+        register(OneImageCell.self, forCellReuseIdentifier: ViewType.oneImage.rawValue)
     }
     
     func setDatasource(_ viewController: UIViewController, _ data: [ViewItem]) {

@@ -7,14 +7,15 @@ class OneLineCell: UITableViewCell, CommonCell {
     func bind(data: ViewObject) {
         guard let oneLineData = data as? OneLineViewObject else { return }
         label.text = oneLineData.text1
-        label.textColor = .blue
-        label.font = UIFont.boldSystemFont(ofSize: 30)
+        label.textColor = .black
+        label.font = UIFont.boldSystemFont(ofSize: 24)
     }
     
     func initCellUI() {
         addSubview(label)
         label.snp.makeConstraints {
-            $0.top.bottom.equalToSuperview()
+            $0.top.equalToSuperview().offset(16)
+            $0.bottom.equalToSuperview().offset(-10)
             $0.centerX.equalToSuperview()
         }
     }

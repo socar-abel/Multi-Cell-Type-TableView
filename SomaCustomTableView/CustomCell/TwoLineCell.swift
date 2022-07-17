@@ -16,18 +16,18 @@ class TwoLineCell: UITableViewCell, CommonCell {
         addSubview(label2)
         
         label1.textColor = .black
-        label1.font = UIFont.boldSystemFont(ofSize: 20)
+        label1.font = UIFont.boldSystemFont(ofSize: 18)
         label2.textColor = .darkGray
-        label2.font = UIFont.boldSystemFont(ofSize: 18)
+        label2.font = UIFont.boldSystemFont(ofSize: 14)
         
         label1.snp.makeConstraints {
-            $0.top.equalToSuperview()
+            $0.top.equalToSuperview().offset(10)
             $0.centerX.equalToSuperview()
             $0.bottom.equalTo(self.snp.centerY)
         }
         
         label2.snp.makeConstraints {
-            $0.bottom.equalToSuperview()
+            $0.bottom.equalToSuperview().offset(-10)
             $0.centerX.equalToSuperview()
             $0.top.equalTo(self.snp.centerY)
         }
