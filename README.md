@@ -6,7 +6,7 @@
   
 Server Driven UI 로 활용되는 것을 목표로 합니다.  
   
-이미 약속한 뷰타입 내에서, 백엔드 json 데이터의 변경만으로도 UI 를 변경할 수 있도록 합니다.   
+서버와 클라이언트가 미리 약속해둔 cell 뷰 타입 범위 내에서는, 백엔드 json 데이터의 변경만으로도 UI 를 변경할 수 있도록 합니다.   
 
 
 - 셀 종류 -> 텍스트 한 줄 : OneLineCell / 텍스트 두 줄 : TwoLineCell / 이미지 : OneImageCell
